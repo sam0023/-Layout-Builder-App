@@ -54,21 +54,21 @@ const ConfigurationController = () => (
             <div>
               <input
                 type="checkbox"
-                id="content"
+                id="left"
                 checked={showLeftNavbar}
                 onChange={onRequestToggleShowLeftNavbar}
               />
-              <label htmlFor="content">Left Navbar</label>
+              <label htmlFor="left">Left Navbar</label>
             </div>
             <div>
               <input
                 type="checkbox"
-                id="content"
+                id="right"
                 checked={showRightNavbar}
                 onChange={onRequestToggleShowRightNavbar}
               />
 
-              <label htmlFor="content">Right Navbar</label>
+              <label htmlFor="right">Right Navbar</label>
             </div>
           </div>
         </div>
